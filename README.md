@@ -6,7 +6,7 @@ We want to help developers making their web applications more secure. This check
 
 Items on this list are frequently missed and were chosen based on their relevance to the overall security of the application. It's a starting point.
 
-### The checklist
+## The checklist
 #### General security
 - [ ] I use prepared statements in SQL queries
 - [ ] I do not concatenate any other input data to SQL queries other than the bound parameters
