@@ -1,5 +1,7 @@
 # Web Application Security Checklist
 
+![Checklist](https://raw.githubusercontent.com/Probely/security_checklist/master/checklist.png)
+
 ## Objectives
 
 We want to help developers making their web applications more secure. This checklist is supposed to be a brain exercise to ensure that essential controls are not forgotten.
@@ -29,6 +31,7 @@ Items on this list are frequently missed and were chosen based on their relevanc
 - [ ] I limit the number of attempts to endpoints such as login, password reset and 2FA validation
 - [ ] I use the language libraries to create and validate JWT tokens
 - [ ] I destroy the session server-side and invalidate the matching JWT tokens when the user logs out I destroy the password reset token after it is used and after a pre-defined time 
+
 
 
 version 1.0
