@@ -16,7 +16,8 @@ Items on this list are frequently missed and were chosen based on their relevanc
 - [ ] I encode all input data before sending the response to the browser
 - [ ] I have disabled directory listing in the web server
 - [ ] I include a CSRF token in requests that change state (or I use the SameSite cookie attribute for the session cookie)
-- [ ] I do not show errors with stack traces, source code, full paths or any other internal data. I verify the content type of uploaded files and delete the bad ones
+- [ ] I do not show errors with stack traces, source code, full paths or any other internal data. 
+- [ ] I verify the content type of uploaded files and delete the bad ones
 - [ ] If I handle XML files, I disabled external entity and DTD processing
 - [ ] I use HTTPS and I send the Strict-Transport-Security header
 - [ ] I only accept TLS 1.2 or higher
