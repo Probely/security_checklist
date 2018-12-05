@@ -31,7 +31,8 @@ Items on this list are frequently missed and were chosen based on their relevanc
 - [ ] I support multi-factor authentication
 - [ ] I limit the number of attempts to endpoints such as login, password reset and 2FA validation
 - [ ] I use the language libraries to create and validate JWT tokens
-- [ ] I destroy the session server-side and invalidate the matching JWT tokens when the user logs out I destroy the password reset token after it is used and after a pre-defined time 
+- [ ] I destroy the session server-side and invalidate the matching JWT tokens when the user logs out 
+- [ ] I destroy the password reset token after it is used and after a pre-defined time 
 
 
 
