@@ -25,13 +25,13 @@ Items on this list are frequently missed and were chosen based on their relevanc
 - [ ] I set the Secure in all other cookies, and if possible HttpOnly also
 - [ ] All 3rd-party JavaScript libraries that my app uses, are updated to the latest version
 #### I have a login feature and cannot use an already existent service:
-- [ ] I store the password using a strong cryptographic function (PBKDF2, HMAC-SHA256, bcrypt)
-- [ ] I ask for the current password to change the password, email and any other information used in the password reset process
+- [ ] I store passwords using a strong cryptographic function (scrypt, argon2, bcrypt, or PBKDF2)
+- [ ] I ask for the current password to set a new password, email or any other information used in the password reset process
 - [ ] I only accept passwords longer than 12 chars and reject common passwords (top 1000)
 - [ ] I support multi-factor authentication
 - [ ] I limit the number of attempts to endpoints such as login, password reset and 2FA validation
-- [ ] I use the language libraries to create and validate JWT tokens
-- [ ] I destroy the session server-side and invalidate the matching JWT tokens when the user logs out 
+- [ ] I use the language libraries to create and validate JSON Web Tokens (JWT)
+- [ ] I destroy the session server-side and invalidate the matching JSON Web Token (JWT) when the user logs out
 - [ ] I destroy the password reset token after it is used and after a pre-defined time 
 
 
