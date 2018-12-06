@@ -22,7 +22,7 @@ Items on this list are frequently missed and were chosen based on their relevanc
 - [ ] I use HTTPS and I send the Strict-Transport-Security header
 - [ ] I only accept TLS 1.2 or higher
 - [ ] I set the Secure, HttpOnly and SameSite=lax attributes in session cookies
-- [ ] I set the Secure in all other cookies, and if possible HttpOnly also
+- [ ] I set the Secure attribute in all other cookies, and if possible HttpOnly also
 - [ ] All 3rd-party JavaScript libraries that my app uses, are updated to the latest version
 #### I have a login feature and cannot use an already existent service:
 - [ ] I store the password using a strong cryptographic function (PBKDF2, HMAC-SHA256, bcrypt)
