@@ -25,7 +25,7 @@ Items on this list are frequently missed and were chosen based on their relevanc
 - [ ] I set the Secure attribute in all other cookies, and if possible HttpOnly also
 - [ ] All 3rd-party JavaScript libraries that my app uses, are updated to the latest version
 #### I have a login feature and cannot use an already existent service:
-- [ ] I store the password using a strong cryptographic function (PBKDF2, HMAC-SHA256, bcrypt)
+- [ ] I store passwords using a strong cryptographic function (scrypt, argon2, bcrypt, or PBKDF2)
 - [ ] I ask for the current password to change the password, email and any other information used in the password reset process
 - [ ] I only accept passwords longer than 12 chars and reject common passwords (top 1000)
 - [ ] I support multi-factor authentication
