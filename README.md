@@ -2,6 +2,10 @@
 
 ![Checklist](https://raw.githubusercontent.com/Probely/security_checklist/master/checklist.png)
 
+**We have a blog post that goes into more detail about each item on the checklist. Check it [here](https://blog.probely.com/web-application-security-checklist-ee0479bf60c6)**
+
+
+
 ## Objectives
 
 We want to help developers making their web applications more secure. This checklist is supposed to be a brain exercise to ensure that essential controls are not forgotten.
